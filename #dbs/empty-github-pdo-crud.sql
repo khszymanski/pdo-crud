@@ -31,8 +31,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `users` (
   `idu` int(11) NOT NULL,
-  `first-name` text COLLATE utf8_polish_ci DEFAULT NULL,
-  `last-name` text COLLATE utf8_polish_ci DEFAULT NULL,
+  `firstName` text COLLATE utf8_polish_ci DEFAULT NULL,
+  `lastName` text COLLATE utf8_polish_ci DEFAULT NULL,
   `nick` text COLLATE utf8_polish_ci DEFAULT NULL,
   `city` text COLLATE utf8_polish_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
