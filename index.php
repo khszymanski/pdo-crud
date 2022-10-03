@@ -1,8 +1,10 @@
 <?php
 
 require_once('includes/dhb.php');
+require_once('includes/user.php');
 
-$obj = new Dbh;
-$obj -> connect();
+// CREATE NEW CLASS AND CALL METHOD getAllUsers
+$obj = new User;
+echo $obj->getAllUsers();
 
 ?>
