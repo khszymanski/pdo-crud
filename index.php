@@ -3,8 +3,12 @@
 require_once('includes/dhb.php');
 require_once('includes/user.php');
 
-// CREATE NEW CLASS AND CALL METHOD getAllUsers
+// CREATE NEW CLASS AND CALL METHODS
 $obj = new User;
-echo $obj->getAllUsers();
+$obj->getAllUsers();
+
+echo '<br>';
+
+echo $obj->getUsersWithCountCheck();
 
 ?>
